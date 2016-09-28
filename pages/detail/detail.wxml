@@ -1,0 +1,50 @@
+<view>
+    <view class="header common-width">
+        <view class="header-top">
+            <image src="../../image/guide_img.png" class="top-img"></image>
+            <view class="top-brand">
+                <view class="top-name">
+                    <text class="brand-name">{{info.name}}</text>
+                    <text class="brand-type">[{{info.type}}]</text>
+                </view>
+                <view>
+                    <text class="month-price">{{info.price}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="clearfix">
+            <view class="info-item fl">
+                <text>招聘职位: </text>
+                <text>{{info.job}}</text>
+            </view>
+            <view class="info-item fr">
+                <text>联系方式: </text>
+                <text class="info-phone">{{info.phone}}</text>
+            </view>
+        </view>
+        <view class="info-item">
+            <text>发布时间: </text>
+            <text>{{info.time}}</text>
+        </view>
+        <view class="info-item ellipsis">
+            <text>招聘地点: </text>
+            <text>{{info.place}}</text>
+        </view>
+    </view>
+    <view class="content">
+        <view class="type-title">
+            <text class="type-text">职位描述</text>
+        </view>
+        <view class="common-width">
+            <text class="detail-text">{{info.desc}}</text>
+        </view>
+    </view>
+    <view class="content">
+        <view class="type-title">
+            <text class="type-text">职位要求</text>
+        </view>
+        <view class="common-width">
+            <text class="detail-text">{{info.demand}}</text>
+        </view>
+    </view>
+</view>

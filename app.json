@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/guide/guide",
+    "pages/type/type",
+    "pages/mime/mime",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3668ab",
+    "navigationBarTitleText": "商场帮",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#3668ab",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/guide/guide",
+        "text": "导购",
+        "iconPath": "image/guide_gray.png",
+        "selectedIconPath": "image/guide_active.png"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "分类",
+        "iconPath": "image/type_gray.png",
+        "selectedIconPath": "image/type_active.png"
+      },
+      {
+        "pagePath": "pages/mime/mime",
+        "text": "我的",
+        "iconPath": "image/mime_gray.png",
+        "selectedIconPath": "image/mime_active.png"
+      }
+    ]
+  }
+}

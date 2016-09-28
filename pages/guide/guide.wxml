@@ -1,0 +1,25 @@
+<view class="guide-list">
+    <block wx:for="{{items}}">
+        <navigator url="{{item.url}}" class="guide-item">
+            <image src="{{item.imgPath}}" class="item-img"></image>
+            <view class="item">
+                <view class="item-text item-title">
+                    <text class="text-title">{{item.brandName}}</text>
+                    <text class="text-type">[{{item.typeName}}]</text>
+                </view>
+                <view class="item-text">
+                    <text>招聘职位：</text>
+                    <text class="text-job">{{item.jobName}}</text>
+                </view>
+                <view class="item-text">
+                    <text>发布时间：</text>
+                    <text>{{item.time}}</text>
+                </view>
+                <view class="item-text ellipsis">
+                    <text>招聘地点：</text>
+                    <text>{{item.place}}</text>
+                </view>
+            </view>
+        </navigator>
+    </block>
+</view>

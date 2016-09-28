@@ -1,0 +1,16 @@
+.type-title {
+    font-size: 36rpx;
+    color: #3668ab;
+    line-height: 72rpx;
+    padding-left: 28rpx;
+}
+.item {
+    float: left;
+    margin-left: 45rpx;
+    margin-bottom: 24rpx;
+}
+.item-img {
+    width: 185rpx;
+    height: 185rpx;
+    display: block;
+}

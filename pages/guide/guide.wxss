@@ -1,0 +1,40 @@
+.guide-list {
+    padding-left: 24rpx;
+    padding-right: 24rpx;
+    overflow: hidden;
+}
+.guide-item {
+    margin-top: 28rpx;
+}
+.item-img {
+    width: 170rpx;
+    height: 170rpx;
+}
+.item {
+    width: 512rpx;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 16rpx;
+}
+.item-text {
+    font-size: 26rpx;
+    color: #b2b2b2;
+    line-height: 40rpx;
+}
+.item-title {
+    line-height: 48rpx;
+    padding-bottom: 2rpx;
+}
+.text-title {
+    font-size: 32rpx;
+    color: #3668ab;
+}
+.text-type {
+    font-size: 28rpx;
+    color: #888888;
+    padding-left: 10rpx;
+}
+.text-job {
+    font-size: 26rpx;
+    color: #09bb07;
+}

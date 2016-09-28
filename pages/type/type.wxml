@@ -1,0 +1,14 @@
+<view>
+    <block wx:for="{{items}}">
+        <view>
+            <text class="type-title">{{item.title}}</text>
+        </view>
+        <view class="type-item clearfix">
+            <block wx:for="{{item.rows}}" wx:for-item="rows">
+                <navigator url="{{rows.url}}" class="item">
+                    <image src="{{rows.imgPath}}" class="item-img"></image>
+                </navigator>
+            </block>
+        </view>
+    </block>
+</view>

@@ -1,0 +1,66 @@
+.common-width {
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+.header-top {
+    display: flex;
+    padding-top: 28rpx;
+    padding-bottom: 8rpx;
+}
+.top-img {
+    width: 112rpx;
+    height: 112rpx;
+    border-radius: 56rpx;
+    display: inline-block;
+}
+.top-brand {
+    flex: 1;
+    padding-left: 16rpx;
+}
+.top-name {
+    line-height: 48rpx;
+    padding-top: 12rpx;
+}
+.brand-name {
+    font-size: 32rpx;
+    color: #3668ab;
+}
+.brand-type {
+    font-size: 28rpx;
+    color: #888888;
+    padding-left: 6rpx;
+}
+.month-price {
+    line-height: 36rpx;
+    font-size: 28rpx;
+    color: #e13250;
+}
+.info-item {
+    font-size: 28rpx;
+    color: #b2b2b2;
+    padding-top: 8rpx;
+}
+.info-phone {
+    font-size: 32rpx;
+    color: #e13250;
+}
+.content {
+    padding-top: 18rpx;
+}
+.type-title {
+    height: 56rpx;
+    background: #dceafc;
+    margin-top: 8rpx;
+    margin-bottom: 12rpx;
+}
+.type-text {
+    line-height: 56rpx;
+    font-size: 28rpx;
+    color: #3668ab;
+    padding-left: 16rpx;
+}
+.detail-text {
+    font-size: 27rpx;
+    color: #b2b2b2;
+    line-height: 36rpx;
+}

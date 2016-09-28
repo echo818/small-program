@@ -1,0 +1,12 @@
+<view>
+    <navigator url="{{login.url}}" class="login-btn">
+        <text class="login-text">{{login.text}}</text>
+    </navigator>
+    <view class="clearfix">
+        <block wx:for="{{items}}">
+        <navigator url="{{item.url}}" class="item">
+            <text class="item-text">{{item.text}}</text>
+        </navigator>
+        </block>
+    </view>
+</view>
